@@ -1,3 +1,38 @@
+# Todo App
+
+## Overview
+This project is a simple Todo application built with React and designed to allow users to manage their tasks efficiently.
+
+Dependencies and Prerequisites
+Node.js
+npm (Node Package Manager)
+React
+Other dependencies specified in package.json
+Technologies Used
+React
+HTML/CSS
+JavaScript (ES6+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
