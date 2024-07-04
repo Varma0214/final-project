@@ -1,0 +1,99 @@
+/* Base colors */
+:root {
+  --primary-color: #2196F3; /* Blue */
+  --secondary-color: #4CAF50; /* Green */
+  --accent-color: #FF5722; /* Orange */
+  --text-color: #333; /* Dark gray */
+  --background-color: #E1F5FE; /* Light blue */
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: var(--background-color);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: var(--primary-color); /* Blue button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #1976D2; /* Darker blue on hover */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: #888; /* Light gray for completed tasks */
+}
+
+.task-buttons button {
+  margin-left: 5px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--primary-color); /* Blue for task buttons */
+}
+
+.task-buttons button:focus {
+  outline: none;
+}
+
+.task-buttons input[type="text"] {
+  width: 70%;
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.task-buttons button.save-button {
+  background-color: var(--secondary-color); /* Green save button */
+  color: white;
+  padding: 5px 10px;
+}
+
+.task-buttons button.accent-button {
+  background-color: var(--accent-color); /* Orange accent button */
+  color: white;
+  padding: 5px 10px;
+}
