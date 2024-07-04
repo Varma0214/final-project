@@ -1,17 +1,26 @@
-# Todo App
+Overview
+This project is a simple Todo application built with React, designed to allow users to manage their tasks efficiently. The application provides functionality to add, view, edit, and delete tasks. Additionally, users can mark tasks as completed, and the application persists data using local storage, ensuring tasks are retained even after page reloads.
 
-## Overview
-This project is a simple Todo application built with React and designed to allow users to manage their tasks efficiently.
-
-Dependencies and Prerequisites
-Node.js
-npm (Node Package Manager)
-React
-Other dependencies specified in package.json
+Features
+Add Task: Users can input a task into a text field and add it to the list by pressing a button or the Enter key.
+View Tasks: Displays all added tasks in a list format.
+Delete Task: Each task has a delete button to remove it from the list.
+Edit Task: Each task has an edit button that allows users to modify the task.
+Mark Task as Completed: Tasks can be marked as completed, which changes their appearance.
+Persist Tasks: Tasks are saved to local storage, so they persist even after the page is reloaded.
 Technologies Used
-React
-HTML/CSS
-JavaScript (ES6+)
+React: A JavaScript library for building user interfaces.
+HTML: The standard markup language for creating web pages.
+CSS: A stylesheet language used to describe the presentation of a document written in HTML.
+Local Storage: A web storage API that allows JavaScript sites and apps to store and access data right in the browser.
+Setup Instructions
+Prerequisites
+Node.js: Ensure you have Node.js installed on your machine. You can download it from Node.js.
+
+Dependencies
+React: The core library for building the user interface.
+Font Awesome: For icons used in the application.
+Bootstrap: For responsive design and styling.
 
 
 
@@ -28,6 +37,16 @@ JavaScript (ES6+)
 
 
 
+
+
+
+
+
+
+
+
+Conclusion
+This Todo application demonstrates a simple yet effective way to manage tasks using modern web technologies. The application is designed to be user-friendly and ensures data persistence through local storage. Feel free to clone the repository and enhance the application with additional features or styling.
 
 
 
